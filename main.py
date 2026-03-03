@@ -14,8 +14,7 @@ def main():
     print(f"Power: {format_result(calc.power(x, y))}")
     
     numbers = [4, 7, 2, 9, 1, 5]
-    print(f"
-Stats for {numbers}:")
+    print(f"\nStats for {numbers}:")
     print(f"  Mean: {format_result(calc.mean(numbers))}")
     print(f"  Median: {calc.median(numbers)}")
     print(f"  Min: {min(numbers)}, Max: {max(numbers)}")
