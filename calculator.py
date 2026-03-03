@@ -31,4 +31,5 @@ class Calculator:
         mid = n // 2
         if n % 2 == 0:
             return (sorted_nums[mid - 1] + sorted_nums[mid]) / 2
-        return sorted_nums[mid]
+        else:
+            return sorted_nums[mid]
